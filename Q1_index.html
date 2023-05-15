@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Q1_styles.css">
+</head>
+<body>
+    <!-- <a href="Q1_index.html" class="logo" target="_blank"> -->
+        <video id="bg-video" autoplay loop muted>
+            <source src="/ITC WEB/Resources/06_ink-67358.mp4 " type="video/mp4">
+            <!-- <source src="/ITC WEB/Resources/01__technology-network-background__802.mov" type="video/webm"> -->
+          </video>
+          <script>
+            var video = document.querySelector('video');
+            var startTime = 0;
+            var endTime = 15;
+            
+            video.addEventListener('timeupdate', function() {
+              if (this.currentTime >= endTime) {
+                this.pause();
+                this.currentTime = startTime;
+                this.play();
+              }
+            });
+            
+            video.play();
+          </script>
+        <div class="overlay"></div>
+          
+    <a href="Q1_index.html" class="logo" >
+        <img src="https://itc.gymkhana.iitb.ac.in/static/mainwebsite/ITClogoWhite.png" alt="">
+    </a>
+    
+      <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+      <label for="menu-icon"></label>
+      <nav class="nav"> 		
+          <ul class="pt-5">
+              <li><a href="#">TEAM 2022-23</a></li>
+              <li><a href="#">CLUBS</a></li>
+              <li><a href="#">TECH TEAMS</a></li>
+              <li><a href="#">LABS</a></li>
+              <li><a href="#">PORTALS</a></li>
+              <li><a href="#">WORK REPORT</a></li>
+              <li><a href="#">CONTACT US</a></li>
+          </ul>
+      </nav>
+    
+<div class="overlay"></div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-md-10 mx-auto col-12">
+                    <div class="hero_text">
+                        <h1 class="welcome" id ="welcome1"
+                        data-aos="fade-up" data-aos-delay="500">WELCOME TO </h1>
+                        
+                        <h1 class = "welcome" id = "welcome2">INSTITUTE TECHNICAL
+                                COUNCIL </h1>
+
+                <h6 class ="innovate">Innovate . Tinker . Create!</h6>
+
+                        
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <br><br>
+    <section class="feature" id="feature">
+        <div class="container">
+            <div class="row">
+
+                <div class="d-flex flex-column justify-content-center ml-lg-auto mr-lg-5 col-lg-5 col-md-6 col-12">
+                    <div class="about-working-hours">
+                        <div>
+                                  <img src= "https://itc.gymkhana.iitb.ac.in/static/mainwebsite/ITClogoWhite.png" class= "img-rounded" alt="Cinque Terre" width="404" height="270">
+                        </div>
+                    </div>
+
+                    <!-- <a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="300"
+                        data-toggle="modal" data-target="#membershipForm">Become a member today</a> -->
+                </div>
+
+                <div class="about">
+                    <h2 class="about_head" data-aos="fade-up" style="color: #87c1e0;">About ITC</h2>
+
+                    <div id="container_t_of_iit">
+                        <h2 class="t_of_iit" ><a href="" >The ‘T’ of IIT Bombay is right here </a></h2>
+                    </div>
+                   
+
+                    <div id="container_about_desc_2">
+                        <p id="about_desc_2" data-aos="fade-up" data-aos-delay="200">The Institute Technical Council caters to the needs for everything related to tech happening in the institute. Student Tech is one of the pillars of IIT Bombay, 
+                            which fosters a culture of motivating young minds to pursue innovative ideas. We make sure that your ideas are heard and help you turn these ideas into reality in every way possible.</p>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+<br><br>
+    <section class="feature" id="feature">
+        <div class="container">
+            <div class="row">
+
+                <div class="join_class">
+                    <div id="container_how_to_head">
+                        <h2 class="join_how_to " data-aos="fade-up" >How to JOIN?</h2>
+                    </div>
+                    
+
+                  <div id="container_how_to_desc">
+                    <p >There is no ‘formal’ way to join a club. You can go and participate in activities and events of any club. You will receive information about these via webmail. These activities are organized by the managers and conveners of respective clubs. In order to become a part of the council, you can take part in the recruitments that happen every year. 
+                        To join the technical teams, you can participate in the respective teams’ year around recruitments. More information will again be shared via webmail :) </p>
+                  </div>
+
+                    
+                </div>
+
+              
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <br><br>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="ml-auto col-lg-4 col-md-5">
+                    <p class="copyright-text">Copyright &copy; ITC, IIT Bombay
+                    </p>
+                </div>
+
+          
+                </div>
+
+            </div>
+        
+    </footer>
+
+
+</body>
+</html>
